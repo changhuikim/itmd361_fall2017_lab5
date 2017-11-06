@@ -1,0 +1,43 @@
+#data{
+	border:5px solid black ;
+}
+h1{
+	padding:35px;
+	width:100%;  
+	font-family: 'Anton', sans-serif;
+	font-size:30px;
+	text-align:center;
+}
+sup { 
+    vertical-align: super;
+    font-size: smaller;
+}
+
+body{
+     background-image: url("space1.jpg");
+	 background-repeat:no-repeat;
+	}
+#tablestyle{
+   position:relative;
+   float:top;
+   margin: 0 3%;
+}
+table,td {
+	border:5px solid black ; 
+	
+}
+.boldfont{
+	font-family: 'Anton', sans-serif;
+	font-size:20px;
+	padding:20px;
+	text-align:center;
+	color:white;
+	
+}
+.info{
+	text-align:center;
+	font-weight:bold;	
+	padding:20px;
+	color:white;
+}
+
