@@ -5,8 +5,13 @@ h1{
 	padding:35px;
 	width:100%;  
 	font-family: 'Anton', sans-serif;
-	font-size:30px;
+	font-size:40px;
 	text-align:center;
+	color:white;
+	text-shadow:2px 2px 3px red;
+}
+h1:hover{
+	color:yellow;
 }
 sup { 
     vertical-align: super;
@@ -16,14 +21,17 @@ sup {
 body{
      background-image: url("space1.jpg");
 	 background-repeat:no-repeat;
+	 background-size:cover;
 	}
+	
 #tablestyle{
    position:relative;
    float:top;
-   margin: 0 3%;
+   margin: 0 3% 3%;
 }
 table,td {
 	border:5px solid black ; 
+	border-collapse:collapse;
 	
 }
 .boldfont{
@@ -33,6 +41,14 @@ table,td {
 	text-align:center;
 	color:white;
 	
+}
+.boldfont:hover{
+	background-color:yellow;
+	color:red;
+}
+.info:hover{
+	background-color:orange;
+	color:red;
 }
 .info{
 	text-align:center;
