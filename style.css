@@ -27,12 +27,11 @@ body{
 #tablestyle{
    position:relative;
    float:top;
-   margin: 0 3% 3%;
+   margin: 3%;
 }
 table,td {
 	border:5px solid black ; 
 	border-collapse:collapse;
-	
 }
 .boldfont{
 	font-family: 'Anton', sans-serif;
